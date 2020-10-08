@@ -21,7 +21,7 @@ def Web_Scraping():
                 list['Purpose'] = data.split('Purpose: ')[1]
         com = com.append(list, ignore_index = True)
     # Here we download the data to a CSV file
-    com.to_csv(r'C:\Users\Mariko McMurtry\Downloads\extracted_companies.csv', index = False)
+    com.to_csv(r'User Pathway \extracted_companies.csv', index = False)
 
 if __name__ == '__main__':
     Web_Scraping()
